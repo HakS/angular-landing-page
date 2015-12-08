@@ -1,0 +1,58 @@
+body {
+  overflow-x: hidden;
+}
+
+.feature.left.ng-hide{
+  display: block!important;
+  visibility: hidden;
+}
+
+.feature.right.ng-hide{
+  display: block!important;
+  visibility: hidden;
+}
+
+.image.ng-hide{
+  display: block!important;
+  visibility: hidden;
+}
+
+
+.image.ng-hide-remove {
+  animation: fadeIn 0.6s;
+}
+
+.feature.left.ng-hide-add {
+  animation: bounceOutLeft 0.6s;
+  visibility: visible
+}
+
+.feature.left.ng-hide-remove {
+  animation: bounceInLeft 0.6s;
+}
+
+
+.feature.right.ng-hide-add {
+  animation: bounceOutRight 0.6s;
+  visibility: visible
+}
+
+.feature.right.ng-hide-remove {
+  animation: bounceInRight 0.6s;
+}
+
+.wrapper.style3.special.ng-hide{
+  display: block!important;
+  visibility: hidden;
+}
+.wrapper.style3.special.ng-hide-remove {
+  animation: slideInDown 1.5s;
+}
+
+.wrapper.style3.special.ng-hide{
+  display: block!important;
+  visibility: hidden;
+}
+.cards-panel.ng-hide-remove {
+  animation: zoomIn 1.5s;
+}
