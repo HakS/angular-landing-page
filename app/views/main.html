@@ -1,3 +1,4 @@
+
 <!-- Banner -->
   <section id="banner">
     <i class="icon fa-diamond"></i>
@@ -6,13 +7,34 @@
 
     <md-button class="md-raised" >LEARN MORE</md-button>
   </section>
+<!-- events -->
+<section id="events" class="wrapper special">
+  <div class="inner">
+    <md-content class="md-padding cards-panel" ani-view layout="row" layout-wrap layout-align="center start">
+      <div flex="50"  layout="column">
+    <md-card ng-repeat="i in [1,2,3,4]">
+        <md-card-title>
+          <md-card-title-media>
+            <img src="http://placehold.it/80x80" > </img>
+          </md-card-title-media>
+          <md-card-title-text class="event-card-text">
+            <span class="md-headline">Some card title</span>
+            <span class="md-subhead">small description</span>
+          </md-card-title-text>
 
+        </md-card-title>
+      </md-card>
+  </div>
+    </div>
+  </md-content>
+</section>
 <!-- One -->
   <section id="one" class="wrapper style1">
     <div class="inner">
       <article class="feature left" ani-scroll="10" >
         <span class="image"><img src="images/pic01.jpg" alt="" /></span>
         <div class="content">
+          <my-element data="'este'"></my-element>
           <h2>Integer vitae libero acrisus egestas placerat  sollicitudin</h2>
           <p>Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est.</p>
           <md-button class="md-raised">LEARN MORE</md-button>
