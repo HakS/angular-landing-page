@@ -1,0 +1,15 @@
+<md-card style="background-color : {{me.color}};">
+  <md-card-title>
+    <md-card-title-media>
+      <img ng-src="{{me.evento.image_url}}" > </img>
+    </md-card-title-media>
+    <md-card-title-text class="event-card-text">
+      <span class="md-headline">{{me.evento.title}}</span>
+      <span class="md-subhead">small description</span>
+    </md-card-title-text>
+  </md-card-title>
+  <md-card-actions layout="row" layout-align="end center">
+        <md-button ng-click="me.changeColor()">Change Color</md-button>
+        <md-button ng-click="me.someAlert()">Some Alert</md-button>
+  </md-card-actions>
+</md-card>

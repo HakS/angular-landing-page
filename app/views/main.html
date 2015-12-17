@@ -1,201 +1,190 @@
 
 <!-- Banner -->
-  <section id="banner">
-    <i class="icon fa-diamond"></i>
-    <h2>Etiam adipiscing</h2>
-    <p>Dispassionate extraterrestrial observer Hypatia how far away paroxysm of global death, gathered by gravity, inconspicuous motes of rock and gas. Extraordinary claims require extraordinary evidence rings of Uranus.</p>
+<section id="banner">
+  <i class="icon fa-diamond"></i>
+  <h2>Etiam adipiscing</h2>
+  <p>Dispassionate extraterrestrial observer Hypatia how far away paroxysm of global death, gathered by gravity, inconspicuous motes of rock and gas. Extraordinary claims require extraordinary evidence rings of Uranus.</p>
 
-    <md-button class="md-raised" >LEARN MORE</md-button>
-  </section>
+  <md-button class="md-raised" >LEARN MORE</md-button>
+</section>
 <!-- events -->
 <section id="events" class="wrapper special">
   <div class="inner">
     <md-content class="md-padding cards-panel" ani-view layout="row" layout-wrap layout-align="center start">
       <div flex="50"  layout="column">
-    <md-card ng-repeat="i in [1,2,3,4]">
-        <md-card-title>
-          <md-card-title-media>
-            <img src="http://placehold.it/80x80" > </img>
-          </md-card-title-media>
-          <md-card-title-text class="event-card-text">
-            <span class="md-headline">Some card title</span>
-            <span class="md-subhead">small description</span>
-          </md-card-title-text>
-
-        </md-card-title>
-      </md-card>
-  </div>
+        <my-element evento="event" ng-repeat="event in main.eventList"/>
+      </div>
     </div>
   </md-content>
 </section>
 <!-- One -->
-  <section id="one" class="wrapper style1">
-    <div class="inner">
-      <article class="feature left" ani-scroll="10" >
-        <span class="image"><img src="images/pic01.jpg" alt="" /></span>
-        <div class="content">
-          <my-element data="'este'"></my-element>
-          <h2>Integer vitae libero acrisus egestas placerat  sollicitudin</h2>
-          <p>Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est.</p>
-          <md-button class="md-raised">LEARN MORE</md-button>
-        </div>
-      </article>
-      <article class="feature right" ani-scroll="400" >
-        <span class="image"><img src="images/pic02.jpg" alt="" /></span>
-        <div class="content">
-          <h2>Integer vitae libero acrisus egestas placerat  sollicitudin</h2>
-          <p>Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est.</p>
-          <md-button class="md-raised">LEARN MORE</md-button>
-        </div>
-      </article>
-    </div>
-  </section>
+<section id="one" class="wrapper style1">
+  <div class="inner">
+    <article class="feature left" ani-scroll="10" >
+      <span class="image"><img src="images/pic01.jpg" alt="" /></span>
+      <div class="content">
+        <my-element data="'este'"></my-element>
+        <h2>Integer vitae libero acrisus egestas placerat  sollicitudin</h2>
+        <p>Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est.</p>
+        <md-button class="md-raised">LEARN MORE</md-button>
+      </div>
+    </article>
+    <article class="feature right" ani-scroll="400" >
+      <span class="image"><img src="images/pic02.jpg" alt="" /></span>
+      <div class="content">
+        <h2>Integer vitae libero acrisus egestas placerat  sollicitudin</h2>
+        <p>Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est.</p>
+        <md-button class="md-raised">LEARN MORE</md-button>
+      </div>
+    </article>
+  </div>
+</section>
 
 <!-- Two -->
-  <section id="two" class="wrapper special">
-    <div class="inner">
-      <header class="major narrow">
-        <h2>Aliquam Blandit Mauris</h2>
-        <p>Ipsum dolor tempus commodo turpis adipiscing Tempor placerat sed amet accumsan</p>
-      </header>
-      <div class="image-grid"  >
-        <a href="#" class="image" abi-view><img src="images/pic03.jpg" alt="" /></a>
-        <a href="#" class="image" abi-view><img src="images/pic04.jpg" alt="" /></a>
-        <a href="#" class="image" abi-view><img src="images/pic05.jpg" alt="" /></a>
-        <a href="#" class="image" abi-view><img src="images/pic06.jpg" alt="" /></a>
-        <a href="#" class="image" abi-view><img src="images/pic07.jpg" alt="" /></a>
-        <a href="#" class="image" abi-view><img src="images/pic08.jpg" alt="" /></a>
-        <a href="#" class="image" abi-view><img src="images/pic09.jpg" alt="" /></a>
-        <a href="#" class="image" abi-view><img src="images/pic10.jpg" alt="" /></a>
-      </div>
-      <md-button class="md-raised">ANOTHER ACTION</md-button>
+<section id="two" class="wrapper special">
+  <div class="inner">
+    <header class="major narrow">
+      <h2>Aliquam Blandit Mauris</h2>
+      <p>Ipsum dolor tempus commodo turpis adipiscing Tempor placerat sed amet accumsan</p>
+    </header>
+    <div class="image-grid"  >
+      <a href="#" class="image" abi-view><img src="images/pic03.jpg" alt="" /></a>
+      <a href="#" class="image" abi-view><img src="images/pic04.jpg" alt="" /></a>
+      <a href="#" class="image" abi-view><img src="images/pic05.jpg" alt="" /></a>
+      <a href="#" class="image" abi-view><img src="images/pic06.jpg" alt="" /></a>
+      <a href="#" class="image" abi-view><img src="images/pic07.jpg" alt="" /></a>
+      <a href="#" class="image" abi-view><img src="images/pic08.jpg" alt="" /></a>
+      <a href="#" class="image" abi-view><img src="images/pic09.jpg" alt="" /></a>
+      <a href="#" class="image" abi-view><img src="images/pic10.jpg" alt="" /></a>
     </div>
-  </section>
+    <md-button class="md-raised">ANOTHER ACTION</md-button>
+  </div>
+</section>
 
 <!-- Three -->
-  <section id="three" class="wrapper style3 special" ani-view>
-    <div class="inner">
-      <header class="major narrow	">
-        <h2>Magna sed consequat tempus</h2>
-        <p>Ipsum dolor tempus commodo turpis adipiscing Tempor placerat sed amet accumsan</p>
-      </header>
-      <md-button class="md-raised">ANOTHER ACTION</md-button>
-    </div>
-  </section>
-
-
-  <div >
-    <md-content class="md-padding cards-panel" ani-view layout="row" layout-wrap layout-align="center start">
-      <div flex="30" layout="column">
-        <md-card>
-          <img src="../images/pic01.jpg" height="250" class="md-card-image" alt="Washed Out">
-          <md-card-title>
-            <md-card-title-text>
-              <span class="md-headline">Icon action buttons</span>
-            </md-card-title-text>
-          </md-card-title>
-          <md-card-content>
-            <p>
-              The titles of Washed Out's breakthrough song and the first single from Paracosm share the
-              two most important words in Ernest Greene's musical language: feel it. It's a simple request, as well...
-            </p>
-          </md-card-content>
-          <md-card-actions layout="row" layout-align="end center">
-            <md-button class="md-icon-button" aria-label="Favorite">
-              <md-icon md-svg-icon="star"></md-icon>
-            </md-button>
-            <md-button class="md-icon-button" aria-label="Settings">
-              <md-icon md-svg-icon="menu"></md-icon>
-            </md-button>
-            <md-button class="md-icon-button" aria-label="Share">
-              <md-icon md-svg-icon="share"></md-icon>
-            </md-button>
-          </md-card-actions>
-        </md-card>
-
-      </div>
-      <div flex="30" layout="column">
-        <md-card>
-          <img src="../images/pic02.jpg" height="250" class="md-card-image" alt="Washed Out">
-          <md-card-title>
-            <md-card-title-text>
-              <span class="md-headline">Icon action buttons</span>
-            </md-card-title-text>
-          </md-card-title>
-          <md-card-content>
-            <p>
-              The titles of Washed Out's breakthrough song and the first single from Paracosm share the
-              two most important words in Ernest Greene's musical language: feel it. It's a simple request, as well...
-            </p>
-          </md-card-content>
-          <md-card-actions layout="row" layout-align="end center">
-            <md-button class="md-icon-button" aria-label="Favorite">
-              <md-icon md-svg-icon="star"></md-icon>
-            </md-button>
-            <md-button class="md-icon-button" aria-label="Settings">
-              <md-icon md-svg-icon="menu"></md-icon>
-            </md-button>
-            <md-button class="md-icon-button" aria-label="Share">
-              <md-icon md-svg-icon="share"></md-icon>
-            </md-button>
-          </md-card-actions>
-        </md-card>
-
-      </div>
-      <div flex="30" layout="column">
-        <md-card>
-          <img src="../images/pic03.jpg" height="250" class="md-card-image" alt="Washed Out">
-          <md-card-title>
-            <md-card-title-text>
-              <span class="md-headline">Icon action buttons</span>
-            </md-card-title-text>
-          </md-card-title>
-          <md-card-content>
-            <p>
-              The titles of Washed Out's breakthrough song and the first single from Paracosm share the
-              two most important words in Ernest Greene's musical language: feel it. It's a simple request, as well...
-            </p>
-          </md-card-content>
-          <md-card-actions layout="row" layout-align="end center">
-            <md-button class="md-icon-button" aria-label="Favorite">
-              <md-icon md-svg-icon="star"></md-icon>
-            </md-button>
-            <md-button class="md-icon-button" aria-label="Settings">
-              <md-icon md-svg-icon="menu"></md-icon>
-            </md-button>
-            <md-button class="md-icon-button" aria-label="Share">
-              <md-icon md-svg-icon="share"></md-icon>
-            </md-button>
-          </md-card-actions>
-        </md-card>
-
-      </div>
-    </md-content>
+<section id="three" class="wrapper style3 special" ani-view>
+  <div class="inner">
+    <header class="major narrow	">
+      <h2>Magna sed consequat tempus</h2>
+      <p>Ipsum dolor tempus commodo turpis adipiscing Tempor placerat sed amet accumsan</p>
+    </header>
+    <md-button class="md-raised">ANOTHER ACTION</md-button>
   </div>
+</section>
+
+
+<div >
+  <md-content class="md-padding cards-panel" ani-view layout="row" layout-wrap layout-align="center start">
+    <div flex="30" layout="column">
+      <md-card>
+        <img src="../images/pic01.jpg" height="250" class="md-card-image" alt="Washed Out">
+        <md-card-title>
+          <md-card-title-text>
+            <span class="md-headline">Icon action buttons</span>
+          </md-card-title-text>
+        </md-card-title>
+        <md-card-content>
+          <p>
+            The titles of Washed Out's breakthrough song and the first single from Paracosm share the
+            two most important words in Ernest Greene's musical language: feel it. It's a simple request, as well...
+          </p>
+        </md-card-content>
+        <md-card-actions layout="row" layout-align="end center">
+          <md-button class="md-icon-button" aria-label="Favorite">
+            <md-icon md-svg-icon="star"></md-icon>
+          </md-button>
+          <md-button class="md-icon-button" aria-label="Settings">
+            <md-icon md-svg-icon="menu"></md-icon>
+          </md-button>
+          <md-button class="md-icon-button" aria-label="Share">
+            <md-icon md-svg-icon="share"></md-icon>
+          </md-button>
+        </md-card-actions>
+      </md-card>
+
+    </div>
+    <div flex="30" layout="column">
+      <md-card>
+        <img src="../images/pic02.jpg" height="250" class="md-card-image" alt="Washed Out">
+        <md-card-title>
+          <md-card-title-text>
+            <span class="md-headline">Icon action buttons</span>
+          </md-card-title-text>
+        </md-card-title>
+        <md-card-content>
+          <p>
+            The titles of Washed Out's breakthrough song and the first single from Paracosm share the
+            two most important words in Ernest Greene's musical language: feel it. It's a simple request, as well...
+          </p>
+        </md-card-content>
+        <md-card-actions layout="row" layout-align="end center">
+          <md-button class="md-icon-button" aria-label="Favorite">
+            <md-icon md-svg-icon="star"></md-icon>
+          </md-button>
+          <md-button class="md-icon-button" aria-label="Settings">
+            <md-icon md-svg-icon="menu"></md-icon>
+          </md-button>
+          <md-button class="md-icon-button" aria-label="Share">
+            <md-icon md-svg-icon="share"></md-icon>
+          </md-button>
+        </md-card-actions>
+      </md-card>
+
+    </div>
+    <div flex="30" layout="column">
+      <md-card>
+        <img src="../images/pic03.jpg" height="250" class="md-card-image" alt="Washed Out">
+        <md-card-title>
+          <md-card-title-text>
+            <span class="md-headline">Icon action buttons</span>
+          </md-card-title-text>
+        </md-card-title>
+        <md-card-content>
+          <p>
+            The titles of Washed Out's breakthrough song and the first single from Paracosm share the
+            two most important words in Ernest Greene's musical language: feel it. It's a simple request, as well...
+          </p>
+        </md-card-content>
+        <md-card-actions layout="row" layout-align="end center">
+          <md-button class="md-icon-button" aria-label="Favorite">
+            <md-icon md-svg-icon="star"></md-icon>
+          </md-button>
+          <md-button class="md-icon-button" aria-label="Settings">
+            <md-icon md-svg-icon="menu"></md-icon>
+          </md-button>
+          <md-button class="md-icon-button" aria-label="Share">
+            <md-icon md-svg-icon="share"></md-icon>
+          </md-button>
+        </md-card-actions>
+      </md-card>
+
+    </div>
+  </md-content>
+</div>
 
 <!-- Four -->
-  <section id="four" class="wrapper style2 special">
-    <div class="inner">
-      <header class="major narrow">
-        <h2>Get in touch</h2>
-        <p>Ipsum dolor tempus commodo adipiscing</p>
-      </header>
-      <form action="#" method="POST">
-        <div class="container 75%">
-          <div class="row uniform 50%">
-            <div class="6u 12u$(xsmall)">
-              <input name="name" placeholder="Name" type="text" />
-            </div>
-            <div class="6u$ 12u$(xsmall)">
-              <input name="email" placeholder="Email" type="email" />
-            </div>
-            <div class="12u$">
-              <textarea name="message" placeholder="Message" rows="4"></textarea>
-            </div>
+<section id="four" class="wrapper style2 special">
+  <div class="inner">
+    <header class="major narrow">
+      <h2>Get in touch</h2>
+      <p>Ipsum dolor tempus commodo adipiscing</p>
+    </header>
+    <form action="#" method="POST">
+      <div class="container 75%">
+        <div class="row uniform 50%">
+          <div class="6u 12u$(xsmall)">
+            <input name="name" placeholder="Name" type="text" />
+          </div>
+          <div class="6u$ 12u$(xsmall)">
+            <input name="email" placeholder="Email" type="email" />
+          </div>
+          <div class="12u$">
+            <textarea name="message" placeholder="Message" rows="4"></textarea>
           </div>
         </div>
-        <md-button class="md-raised md-primary">SUBMITN</md-button>
-        <md-button class="md-raised md-warn">RESET</md-button>
-      </form>
-    </div>
-  </section>
+      </div>
+      <md-button class="md-raised md-primary">SUBMITN</md-button>
+      <md-button class="md-raised md-warn">RESET</md-button>
+    </form>
+  </div>
+</section>
